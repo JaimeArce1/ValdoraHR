@@ -1,0 +1,19 @@
+# Valdora HR su Netlify.
+# Le pagine sono rese dalla funzione `site` (un URL per pagina, stato per sessione
+# in Netlify Blobs); `public/` contiene solo CSS, JS e robots.txt.
+[build]
+  publish = "public"
+  command = "echo 'Valdora HR v1.0: nessun passo di build'"
+
+# @netlify/blobs 11 richiede Node >= 22.12; vale anche per il runtime delle funzioni.
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
