@@ -1,0 +1,17 @@
+{
+  "name": "valdora-hr",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Valdora HR: sito multi-pagina (gestionale HR) con release a bug seminati, SUT per LABBGEN",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "node dev/server.mjs",
+    "test": "node --test \"tests/**/*.test.js\""
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.11"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "dipendenti_totali": 36,
+  "dipendenti_attivi": 33,
+  "dipendenti_cessati": [
+    "Giorgio Fontana (VLD-0021)",
+    "Daniele Longo (VLD-0030)",
+    "Alessandro Rossi (VLD-0009)"
+  ],
+  "per_reparto_attivi": {
+    "Amministrazione": 5,
+    "Risorse Umane": 2,
+    "Produzione": 12,
+    "Logistica": 6,
+    "Vendite": 5,
+    "Sistemi informativi": 3
+  },
+  "per_contratto_attivi": {
+    "IND": 28,
+    "DET": 3,
+    "APP": 2
+  },
+  "part_time_attivi": 5,
+  "richieste_in_attesa": 5,
+  "in_ferie_oggi": [
+    "Ilaria Rinaldi",
+    "Luca Rossi"
+  ],
+  "costo_mensile_personale": "88.611,53 €",
+  "prossima_matricola": "VLD-0037",
+  "prossimo_id_ferie": "F-2031",
+  "ricerca_rossi_attivi": 2,
+  "ricerca_rossi_tutti": 3,
+  "pagine_elenco_attivi": 4,
+  "primo_e_ultimo_per_pagina": [
+    [
+      "Barbieri Riccardo",
+      "De Luca Andrea",
+      10
+    ],
+    [
+      "Esposito Marco",
+      "Lombardo Nicola",
+      10
+    ],
+    [
+      "Mariani Emanuele",
+      "Rossi Luca",
+      10
+    ],
+    [
+      "Santoro Valentina",
+      "Vitale Anna",
+      3
+    ]
+  ],
+  "approvazioni": [
+    {
+      "id": "F-1004",
+      "richiedente": "VLD-0010",
+      "approvatore": "VLD-0008",
+      "giorni": 2,
+      "inviata_il": "2026-11-02",
+      "disponibili_richiedente": 13
+    },
+    {
+      "id": "F-1005",
+      "richiedente": "VLD-0012",
+      "approvatore": "VLD-0008",
+      "giorni": 8,
+      "inviata_il": "2026-11-05",
+      "disponibili_richiedente": 8
+    },
+    {
+      "id": "F-1006",
+      "richiedente": "VLD-0013",
+      "approvatore": "VLD-0008",
+      "giorni": 5,
+      "inviata_il": "2026-11-09",
+      "disponibili_richiedente": 11
+    },
+    {
+      "id": "F-1007",
+      "richiedente": "VLD-0007",
+      "approvatore": "VLD-0006",
+      "giorni": 2,
+      "inviata_il": "2026-11-10",
+      "disponibili_richiedente": 14
+    },
+    {
+      "id": "F-1008",
+      "richiedente": "VLD-0035",
+      "approvatore": "VLD-0034",
+      "giorni": 3,
+      "inviata_il": "2026-11-12",
+      "disponibili_richiedente": 13
+    }
+  ],
+  "busta_ottobre_esempio_alta": {
+    "chi": "Marco Esposito (VLD-0001)",
+    "lordo": "7.538,46 €",
+    "contributi": "692,78 €",
+    "imponibile": "6.845,68 €",
+    "irpef": "2.115,99 €",
+    "netto": "4.729,69 €"
+  },
+  "giorni_esempio": {
+    "07/12-09/12/2026": 2,
+    "21/12-31/12/2026": 8
+  },
+  "ferie_assunti_2026": {
+    "Gaia D'Angelo": {
+      "assunzione": "2026-09-01",
+      "spettanti": 8,
+      "usati": 0
+    },
+    "Riccardo Barbieri": {
+      "assunzione": "2026-03-02",
+      "spettanti": 21,
+      "usati": 5
+    },
+    "Lorenzo Galli": {
+      "assunzione": "2026-04-01",
+      "spettanti": 19,
+      "usati": 5
+    }
+  },
+  "utenti": {
+    "hr": {
+      "nome": "Laura Bianchi",
+      "matricola": "VLD-0006",
+      "email": "laura.bianchi@valdora.example",
+      "codice_fiscale": "BNCLRA79S43F205F",
+      "ferie_usate": 10,
+      "ferie_spettanti": 26,
+      "ferie_residue": 16,
+      "ferie_in_attesa": 0,
+      "ferie_richiedibili": 16,
+      "busta_ottobre": {
+        "lordo": "4.000,00 €",
+        "contributi": "367,60 €",
+        "imponibile": "3.632,40 €",
+        "irpef": "991,34 €",
+        "netto": "2.641,06 €"
+      },
+      "busta_marzo": {
+        "lordo": "4.000,00 €",
+        "contributi": "367,60 €",
+        "imponibile": "3.632,40 €",
+        "irpef": "991,34 €",
+        "netto": "2.641,06 €"
+      },
+      "da_approvare": 1,
+      "diretti_attivi": 1
+    },
+    "manager": {
+      "nome": "Paolo Neri",
+      "matricola": "VLD-0008",
+      "email": "paolo.neri@valdora.example",
+      "codice_fiscale": "NREPLA76H25L219C",
+      "ferie_usate": 10,
+      "ferie_spettanti": 26,
+      "ferie_residue": 16,
+      "ferie_in_attesa": 0,
+      "ferie_richiedibili": 16,
+      "busta_ottobre": {
+        "lordo": "4.307,69 €",
+        "contributi": "395,88 €",
+        "imponibile": "3.911,81 €",
+        "irpef": "1.089,13 €",
+        "netto": "2.822,68 €"
+      },
+      "busta_marzo": {
+        "lordo": "4.307,69 €",
+        "contributi": "395,88 €",
+        "imponibile": "3.911,81 €",
+        "irpef": "1.089,13 €",
+        "netto": "2.822,68 €"
+      },
+      "da_approvare": 3,
+      "diretti_attivi": 11
+    },
+    "dipendente": {
+      "nome": "Sara Conti",
+      "matricola": "VLD-0010",
+      "email": "sara.conti@valdora.example",
+      "codice_fiscale": "CNTSRA91E59D612J",
+      "ferie_usate": 11,
+      "ferie_spettanti": 26,
+      "ferie_residue": 15,
+      "ferie_in_attesa": 2,
+      "ferie_richiedibili": 13,
+      "busta_ottobre": {
+        "lordo": "1.907,69 €",
+        "contributi": "175,32 €",
+        "imponibile": "1.732,37 €",
+        "irpef": "398,45 €",
+        "netto": "1.333,92 €"
+      },
+      "busta_marzo": {
+        "lordo": "1.784,62 €",
+        "contributi": "164,01 €",
+        "imponibile": "1.620,61 €",
+        "irpef": "372,74 €",
+        "netto": "1.247,87 €"
+      },
+      "da_approvare": 0,
+      "diretti_attivi": 0
+    }
+  }
+}
