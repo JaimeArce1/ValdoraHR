@@ -11,7 +11,7 @@ Sito multi-pagina con un gestionale HR (società fittizia Officine Valdora S.r.l
 | Profilo di dominio LABBGEN | `MALLM_Agent_ASK/domain/valdora_hr.json` |
 | Sito v1.0 senza bug | costruito e verificato in locale (`npm test`, browser) |
 | Catalogo dei bug e release | da fare |
-| Deploy Netlify | da fare (serve un account e un sito collegato al repo) |
+| Deploy Netlify | preparato e provato con `netlify dev`: passi in [DEPLOY.md](DEPLOY.md) |
 
 ## Struttura
 
